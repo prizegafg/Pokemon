@@ -1,0 +1,19 @@
+{
+  "commitish" : "5.4.4",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "afbad7802436aadf6a80076bcd7599135d43d23599d485d044125ffab6941e85",
+      "name" : "SwiftyGif",
+      "container" : "SwiftyGif.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)",
+      "hash" : "ebfbe16775c30ad92514b79c48a4b067e9bbaa2bb9abfcf2d0f56c2f70639ce8",
+      "name" : "SwiftyGif",
+      "container" : "SwiftyGif.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

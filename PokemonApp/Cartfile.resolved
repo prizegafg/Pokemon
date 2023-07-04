@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "5.7.1"
+github "SwiftyJSON/SwiftyJSON" "5.0.1"
+github "kirualex/SwiftyGif" "5.4.4"
+github "onevcat/Kingfisher" "7.8.1"

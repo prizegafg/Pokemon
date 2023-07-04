@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AttackPokemonVC" customModule="PokemonApp" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSwipeCatch" destination="LPT-3f-tu2" id="q4z-SI-e9z"/>
+                <outlet property="imgPokemon" destination="9ms-tf-B2q" id="BXf-dV-huZ"/>
+                <outlet property="imgSwipeUp" destination="8eL-Jk-fqr" id="I6a-M5-8c0"/>
+                <outlet property="lblPokemon" destination="sVx-iZ-Hy1" id="7im-sb-6aE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ms-tf-B2q">
+                    <rect key="frame" x="46.666666666666657" y="159" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="60Q-rR-FrC"/>
+                        <constraint firstAttribute="width" constant="300" id="Dpe-lR-Xf8"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVx-iZ-Hy1">
+                    <rect key="frame" x="168.33333333333334" y="479" width="56.666666666666657" height="28.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8eL-Jk-fqr">
+                    <rect key="frame" x="106.66666666666669" y="523" width="180" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="6Gc-ow-0ea"/>
+                        <constraint firstAttribute="width" constant="180" id="UIB-1Y-URW"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPT-3f-tu2">
+                    <rect key="frame" x="159" y="723" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="Acd-Bk-IFx"/>
+                        <constraint firstAttribute="width" constant="75" id="Kon-dC-cdz"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LPT-3f-tu2" firstAttribute="top" secondItem="8eL-Jk-fqr" secondAttribute="bottom" constant="20" id="6Yw-4T-V5p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="LPT-3f-tu2" secondAttribute="bottom" constant="20" id="CzO-JM-Pgz"/>
+                <constraint firstItem="8eL-Jk-fqr" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="L9W-hN-czR"/>
+                <constraint firstItem="sVx-iZ-Hy1" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="NFc-iZ-sSQ"/>
+                <constraint firstItem="sVx-iZ-Hy1" firstAttribute="top" secondItem="9ms-tf-B2q" secondAttribute="bottom" constant="20" id="ch5-EH-VhR"/>
+                <constraint firstItem="9ms-tf-B2q" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="fPC-HG-DYk"/>
+                <constraint firstItem="LPT-3f-tu2" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="uFH-UM-dc7"/>
+                <constraint firstItem="9ms-tf-B2q" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="wZa-iE-cmz"/>
+            </constraints>
+            <point key="canvasLocation" x="36" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
